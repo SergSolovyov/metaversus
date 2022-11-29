@@ -24,7 +24,8 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
       </div>
 
       <div className="lg:flex hidden items-center justify-center w-[100px] h-[100px]
-      rounded-full bg-transparent border-[1px] border-white">
+      rounded-full bg-transparent border-[1px] border-white"
+      >
         <img
           src="/arrow.svg"
           alt="arrow"
